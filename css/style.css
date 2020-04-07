@@ -1,0 +1,58 @@
+#main-navbar {
+  background-color: blue;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;	
+}
+
+#navbar-container ul {
+  list-style-type: none;
+}	
+
+#navbar-container ul li {
+  float: left;
+  padding: 10px 20px;
+}
+
+#navbar-container ul li a {
+  color: #fff;
+  text-decoration: none;
+}		
+
+#navbar-container {
+  position: relative;
+  width: 100%;
+  left: 40%;
+  display: block; 
+}
+
+#onpage {
+  text-decoration: underline overline;
+}
+
+#sidebar {
+  position: fixed;
+  right: 0%;
+  background-color: red;
+  height: 100%;
+  width: 20%;
+}
+
+#sidebar-container ul {
+  list-style-type: none;		
+}
+
+#sidebar-container ul li {
+  padding: 15px 0;
+}
+
+#sidebar-container ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#sidebar-container {
+  text-align: center;
+  padding: 0;
+  display: block; 
+}
